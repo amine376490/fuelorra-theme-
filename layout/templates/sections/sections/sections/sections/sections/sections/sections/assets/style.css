@@ -1,0 +1,111 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
+/* Announcement */
+.announcement{
+background:#000;
+color:#fff;
+text-align:center;
+padding:10px;
+font-size:14px;
+}
+
+/* Header */
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 30px;
+border-bottom:1px solid #eee;
+}
+
+/* Hero */
+.hero{
+height:80vh;
+background:url('https://via.placeholder.com/1500') center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.overlay{
+background:rgba(0,0,0,0.5);
+color:#fff;
+padding:40px;
+text-align:center;
+border-radius:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#fff;
+color:#000;
+text-decoration:none;
+border-radius:25px;
+}
+
+/* Wave */
+.wave{
+height:100px;
+background:linear-gradient(to right,#6b8f7a,#a8c0b0);
+}
+
+/* Icons */
+.icons-section{
+text-align:center;
+padding:60px 20px;
+}
+
+.icons-grid{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#6b8f7a;
+color:#fff;
+padding:20px;
+border-radius:15px;
+width:150px;
+}
+
+/* Contact */
+.contact{
+padding:60px 20px;
+text-align:center;
+}
+
+.contact input,
+.contact textarea{
+display:block;
+width:80%;
+max-width:400px;
+margin:10px auto;
+padding:10px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+.contact button{
+padding:12px 30px;
+background:#6b8f7a;
+color:#fff;
+border:none;
+border-radius:20px;
+}
+
+/* Footer */
+.footer{
+background:#000;
+color:#fff;
+padding:40px;
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+}
